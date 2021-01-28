@@ -1,0 +1,8 @@
+CxImage
+Eigen
+Glut
+his
+mkl_8.1
+OpenCV2.3
+OpenCV2.4.10
+WmlMath

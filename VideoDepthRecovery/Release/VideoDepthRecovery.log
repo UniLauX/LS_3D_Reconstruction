@@ -1,0 +1,104 @@
+﻿生成启动时间为 2014/7/15 14:24:54。
+     1>项目“F:\Project\VideoDepthRecovery\VideoDepthRecovery\VideoDepthRecovery.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\LightStage.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.5\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.5\include\QtCore /IC:\Qt\4.8.5\include\QtGui /nologo /W1 /WX- /O2 /Oy- /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt LSStructureMotion.cpp VisualHull\BoxCalculator.cpp
+         LSStructureMotion.cpp
+     1>f:\project\videodepthrecovery\videodepthrecovery\VisualHull/VisualHull.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         BoxCalculator.cpp
+     1>f:\project\videodepthrecovery\videodepthrecovery\VisualHull/VisualHull.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Project\VideoDepthRecovery\Win32\Release\\LightStage.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.5\lib qtmain.lib QtCore4.lib QtGui4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\LightStage.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Project\VideoDepthRecovery\Win32\Release\LightStage.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Project\VideoDepthRecovery\Win32\Release\LightStage.lib" /MACHINE:X86 Release\ActbFileParser.obj
+         Release\ActsFileParser.obj
+         Release\ActsParserBase.obj
+         Release\BeliefPropagation.obj
+         Release\Block.obj
+         Release\CameraParameters.obj
+         Release\CamFileParser.obj
+         Release\CxImageFunction.obj
+         Release\DataCost.obj
+         Release\DataCostUnit.obj
+         Release\DataCostWorkUnit.obj
+         Release\depthparawidget.obj
+         Release\DspEstimatorBase.obj
+         Release\DspEstimator_Normal.obj
+         Release\FileNameParser.obj
+         Release\fileParser.obj
+         Release\FrameSelectorBase.obj
+         Release\FrameSelector_MatchPoints.obj
+         Release\FrameSelector_Normal.obj
+         Release\qrc_videodepthrecovery.obj
+         Release\moc_depthparawidget.obj
+         Release\moc_lsparawidget.obj
+         Release\moc_LSRunConfigDlg.obj
+         Release\moc_runconfigdlg.obj
+         Release\moc_videodepthrecovery.obj
+         Release\LSImgPartition.obj
+         Release\ImgPartitionBase.obj
+         Release\ImgPartiton.obj
+         Release\LevenMarOptimizer.obj
+         Release\LSBeliefPropagation.obj
+         Release\LSCameraParameters.obj
+         Release\LSDepthEstimator.obj
+         Release\LSModelIO.obj
+         Release\lsparawidget.obj
+         Release\LSStereoWorkUnit.obj
+         Release\LSStructureMotion.obj
+         Release\LSSuperRefineWorkUnit.obj
+         Release\LSVideoFrame.obj
+         Release\LSRunConfigDlg.obj
+         Release\main.obj
+         Release\MainWindowControler.obj
+         Release\MeanShiftSeg.obj
+         Release\BgImage.obj
+         Release\ms.obj
+         Release\msImageProcessor.obj
+         Release\msSys.obj
+         Release\RAList.obj
+         Release\rlist.obj
+         Release\MyHeap.obj
+         Release\PixelCostComputer_Init.obj
+         Release\PixelCostComputorBase.obj
+         Release\PixelCostComputor_Refine.obj
+         Release\PlanFittingWorkUnit.obj
+         Release\PointCloudSampling.obj
+         Release\PossionShExec.obj
+         Release\runconfigdlg.obj
+         Release\VDRStructureMotion.obj
+         Release\VDRVideoFrame.obj
+         Release\videodepthrecovery.obj
+         Release\BoxCalculator.obj
+         Release\MarchingCube.obj
+         Release\MarchingCubeStatic.obj
+         Release\simp1.obj
+         Release\simp2.obj
+         Release\simp3.obj
+         Release\simplx.obj
+         Release\SimplxWarp.obj
+         Release\SoftRasterize.obj
+         Release\VH_Octree.obj
+         Release\VisualHull.obj
+         Release\Voxel.obj
+         Release\ZImage.obj
+         Release\ZImageUtil.obj
+         LINK : 没有找到 F:\Project\VideoDepthRecovery\Win32\Release\\LightStage.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>wmlmath100-win32-mtd-vc10-r.lib(WmlLinearSystem.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“wmlmath100-win32-mtd-vc10-r.lib(WmlLinearSystem.obj)”或在“F:\Project\VideoDepthRecovery\Win32\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>wmlmath100-win32-mtd-vc10-r.lib(WmlMath.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“wmlmath100-win32-mtd-vc10-r.lib(WmlMath.obj)”或在“F:\Project\VideoDepthRecovery\Win32\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>wmlmath100-win32-mtd-vc10-r.lib(WmlMatrix3.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“wmlmath100-win32-mtd-vc10-r.lib(WmlMatrix3.obj)”或在“F:\Project\VideoDepthRecovery\Win32\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>wmlmath100-win32-mtd-vc10-r.lib(WmlMatrix4.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“wmlmath100-win32-mtd-vc10-r.lib(WmlMatrix4.obj)”或在“F:\Project\VideoDepthRecovery\Win32\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         VideoDepthRecovery.vcxproj -> F:\Project\VideoDepthRecovery\Win32\Release\LightStage.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Project\VideoDepthRecovery\Win32\Release\\LightStage.exe;#1" /manifest Release\LightStage.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\LightStage.unsuccessfulbuild”。
+         正在对“Release\LightStage.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Project\VideoDepthRecovery\VideoDepthRecovery\VideoDepthRecovery.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.27

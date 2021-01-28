@@ -1,0 +1,13 @@
+## put the corresponding libs under this folder. 
+LS_3D_Reconstruction/VideoDepthRecovery/libs
+
+## two consective frames has been put as the demo, more data can be get from yebin liu's group.
+/LS_3D_Reconstruction/Win32/Data/Ls_Data
+
+
+## Software demo can be runned using the folder "Exe& Data"
+once configed, the release mode(LS_3D_Reconstruction/Win32/Release/lightstage.exe) can be runed.
+
+## At the moment, using tsinghua dataset (from group of Yebin Liu) can get good results for mask and visualhull.
+
+## Capable for single frame calculation, multi-frame need to be improved.

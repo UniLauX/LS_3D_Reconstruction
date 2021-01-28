@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{304bdb9b-c82d-404d-9f97-5652e1c273b4}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{f7009331-319b-4d59-84c0-b9759780b71e}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{0f467328-7dd8-4c16-a326-c0048db2ed44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Track">
+      <UniqueIdentifier>{409f5007-be08-4a73-8291-7f731747f8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZImage">
+      <UniqueIdentifier>{68eed148-b600-40bd-9ad3-cfcb06dd1a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImagePartition">
+      <UniqueIdentifier>{4dbb5aa5-084b-48b1-b7a7-becf04c94210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{17700ddf-35f0-41a6-8239-847cd847bbc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameSelector">
+      <UniqueIdentifier>{402b039c-9960-49fd-aace-9443f4eb002d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DspEstimator">
+      <UniqueIdentifier>{d8c3eeba-4817-4c7e-9f86-b5cc3b7f414f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BP">
+      <UniqueIdentifier>{72c78292-ad3c-4bc4-8f34-34d3a16bbeb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Segm">
+      <UniqueIdentifier>{a29e3736-147b-4567-850a-b42977837d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Segm\MeanSift">
+      <UniqueIdentifier>{f709207b-88db-43e6-aaef-a644313e218c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualHull">
+      <UniqueIdentifier>{47f49b41-7b99-440b-bcd8-2f6783bdb395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualHull\nrsimplx">
+      <UniqueIdentifier>{ad0808a3-bb06-4876-98b6-079178022a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{c6443dea-77b6-4189-8c1a-15b86b32a415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutoVisualHull">
+      <UniqueIdentifier>{d82c5403-4a82-42f6-97de-3065a9bdcb67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="videodepthrecovery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_videodepthrecovery.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_videodepthrecovery.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_videodepthrecovery.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VDRStructureMotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VDRVideoFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActsParserBase.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="FileNameParser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="ActsFileParser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="fileParser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="ActbFileParser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="ZImage.cpp">
+      <Filter>ZImage</Filter>
+    </ClCompile>
+    <ClCompile Include="ZImageUtil.cpp">
+      <Filter>ZImage</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>ImagePartition</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CxImageFunction.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindowControler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_runconfigdlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_runconfigdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="runconfigdlg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_depthparawidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_depthparawidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="depthparawidget.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameSelectorBase.cpp">
+      <Filter>FrameSelector</Filter>
+    </ClCompile>
+    <ClCompile Include="DspEstimatorBase.cpp">
+      <Filter>DspEstimator</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgPartitionBase.cpp">
+      <Filter>ImagePartition</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgPartiton.cpp">
+      <Filter>ImagePartition</Filter>
+    </ClCompile>
+    <ClCompile Include="DspEstimator_Normal.cpp">
+      <Filter>DspEstimator</Filter>
+    </ClCompile>
+    <ClCompile Include="DataCost.cpp">
+      <Filter>BP</Filter>
+    </ClCompile>
+    <ClCompile Include="DataCostUnit.cpp">
+      <Filter>BP</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelCostComputorBase.cpp">
+      <Filter>DspEstimator</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameSelector_Normal.cpp">
+      <Filter>FrameSelector</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameSelector_MatchPoints.cpp">
+      <Filter>FrameSelector</Filter>
+    </ClCompile>
+    <ClCompile Include="MeanShift\BgImage.cpp">
+      <Filter>Segm\MeanSift</Filter>
+    </ClCompile>
+    <ClCompile Include="MeanShift\ms.cpp">
+      <Filter>Segm\MeanSift</Filter>
+    </ClCompile>
+    <ClCompile Include="MeanShift\msImageProcessor.cpp">
+      <Filter>Segm\MeanSift</Filter>
+    </ClCompile>
+    <ClCompile Include="MeanShift\msSys.cpp">
+      <Filter>Segm\MeanSift</Filter>
+    </ClCompile>
+    <ClCompile Include="MeanShift\RAList.cpp">
+      <Filter>Segm\MeanSift</Filter>
+    </ClCompile>
+    <ClCompile Include="MeanShift\rlist.cpp">
+      <Filter>Segm\MeanSift</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelCostComputer_Init.cpp">
+      <Filter>DspEstimator</Filter>
+    </ClCompile>
+    <ClCompile Include="MeanShiftSeg.cpp">
+      <Filter>Segm</Filter>
+    </ClCompile>
+    <ClCompile Include="DataCostWorkUnit.cpp">
+      <Filter>DspEstimator</Filter>
+    </ClCompile>
+    <ClCompile Include="BeliefPropagation.cpp">
+      <Filter>BP</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanFittingWorkUnit.cpp">
+      <Filter>DspEstimator</Filter>
+    </ClCompile>
+    <ClCompile Include="LevenMarOptimizer.cpp">
+      <Filter>Segm</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelCostComputor_Refine.cpp">
+      <Filter>DspEstimator</Filter>
+    </ClCompile>
+    <ClCompile Include="CamFileParser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="LSStructureMotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LSVideoFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LSCameraParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LSRunConfigDlg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LSRunConfigDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LSRunConfigDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_lsparawidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_lsparawidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="lsparawidget.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualHull\BoxCalculator.cpp">
+      <Filter>VisualHull</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualHull\SimplxWarp.cpp">
+      <Filter>VisualHull</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualHull\nrsimplx\simp1.cpp">
+      <Filter>VisualHull\nrsimplx</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualHull\nrsimplx\simp2.cpp">
+      <Filter>VisualHull\nrsimplx</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualHull\nrsimplx\simp3.cpp">
+      <Filter>VisualHull\nrsimplx</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualHull\nrsimplx\simplx.cpp">
+      <Filter>VisualHull\nrsimplx</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualHull\VisualHull.cpp">
+      <Filter>VisualHull</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualHull\Voxel.cpp">
+      <Filter>VisualHull</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualHull\SoftRasterize.cpp">
+      <Filter>VisualHull</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualHull\VH_Octree.cpp">
+      <Filter>VisualHull</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualHull\MarchingCube.cpp">
+      <Filter>VisualHull</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualHull\MarchingCubeStatic.cpp">
+      <Filter>VisualHull</Filter>
+    </ClCompile>
+    <ClCompile Include="ImagePartition\LSImgPartition.cpp">
+      <Filter>ImagePartition</Filter>
+    </ClCompile>
+    <ClCompile Include="LSStereoWorkUnit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LSDepthEstimator.cpp">
+      <Filter>DspEstimator</Filter>
+    </ClCompile>
+    <ClCompile Include="LSBeliefPropagation.cpp">
+      <Filter>BP</Filter>
+    </ClCompile>
+    <ClCompile Include="LSModelIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LSSuperRefineWorkUnit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointCloudSampling.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PossionShExec.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MyHeap.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectPoint.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ZNCCConfEstimator.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="NCCCommonUse.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PointSetNormal.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectPointParam.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ExWRegularGridBP.cpp">
+      <Filter>BP</Filter>
+    </ClCompile>
+    <ClCompile Include="ZCubeImage.cpp">
+      <Filter>BP</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxFilter.cpp">
+      <Filter>BP</Filter>
+    </ClCompile>
+    <ClCompile Include="ExWRegularGridBPWorkUnit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoVisualHull.cpp">
+      <Filter>AutoVisualHull</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoVoxel.cpp">
+      <Filter>AutoVisualHull</Filter>
+    </ClCompile>
+    <ClCompile Include="GMM.cpp">
+      <Filter>AutoVisualHull</Filter>
+    </ClCompile>
+    <ClCompile Include="GCApplication.cpp">
+      <Filter>AutoVisualHull</Filter>
+    </ClCompile>
+    <ClCompile Include="GrabCut2D.cpp">
+      <Filter>AutoVisualHull</Filter>
+    </ClCompile>
+    <ClCompile Include="GCGraph.cpp">
+      <Filter>AutoVisualHull</Filter>
+    </ClCompile>
+    <ClCompile Include="GMM3D.cpp">
+      <Filter>AutoVisualHull</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="videodepthrecovery.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="videodepthrecovery.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="videodepthrecovery.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="runconfigdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="runconfigdlg.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="depthparawidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="depthparawidget.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LSRunConfigDlg.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LSRunConfigDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lsparawidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lsparawidget.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_videodepthrecovery.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VDRStructureMotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VDRVideoFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActsParserBase.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="FileNameParser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ActsFileParser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchLinker.h">
+      <Filter>Track</Filter>
+    </ClInclude>
+    <ClInclude Include="fileParser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ActbFileParser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ZImage.h">
+      <Filter>ZImage</Filter>
+    </ClInclude>
+    <ClInclude Include="ZImageUtil.h">
+      <Filter>ZImage</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>ImagePartition</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CxImageFunction.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindowControler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_runconfigdlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_depthparawidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameSelectorBase.h">
+      <Filter>FrameSelector</Filter>
+    </ClInclude>
+    <ClInclude Include="DspEstimatorBase.h">
+      <Filter>DspEstimator</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgPartitionBase.h">
+      <Filter>ImagePartition</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgPartiton.h">
+      <Filter>ImagePartition</Filter>
+    </ClInclude>
+    <ClInclude Include="DspEstimator_Normal.h">
+      <Filter>DspEstimator</Filter>
+    </ClInclude>
+    <ClInclude Include="DataCost.h">
+      <Filter>BP</Filter>
+    </ClInclude>
+    <ClInclude Include="DataCostUnit.h">
+      <Filter>BP</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelCostComputorBase.h">
+      <Filter>DspEstimator</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameSelector_Normal.h">
+      <Filter>FrameSelector</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameSelector_MatchPoints.h">
+      <Filter>FrameSelector</Filter>
+    </ClInclude>
+    <ClInclude Include="MeanShift\BgImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeanShift\ms.h">
+      <Filter>Segm\MeanSift</Filter>
+    </ClInclude>
+    <ClInclude Include="MeanShift\msImageProcessor.h">
+      <Filter>Segm\MeanSift</Filter>
+    </ClInclude>
+    <ClInclude Include="MeanShift\msSys.h">
+      <Filter>Segm\MeanSift</Filter>
+    </ClInclude>
+    <ClInclude Include="MeanShift\RAList.h">
+      <Filter>Segm\MeanSift</Filter>
+    </ClInclude>
+    <ClInclude Include="MeanShift\rlist.h">
+      <Filter>Segm\MeanSift</Filter>
+    </ClInclude>
+    <ClInclude Include="MeanShift\tdef.h">
+      <Filter>Segm\MeanSift</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelCostComputer_Init.h">
+      <Filter>DspEstimator</Filter>
+    </ClInclude>
+    <ClInclude Include="MeanShiftSeg.h">
+      <Filter>Segm</Filter>
+    </ClInclude>
+    <ClInclude Include="DataCostWorkUnit.h">
+      <Filter>DspEstimator</Filter>
+    </ClInclude>
+    <ClInclude Include="BeliefPropagation.h">
+      <Filter>BP</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanFittingWorkUnit.h">
+      <Filter>DspEstimator</Filter>
+    </ClInclude>
+    <ClInclude Include="LevenMarOptimizer.h">
+      <Filter>Segm</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelCostComputor_Refine.h">
+      <Filter>DspEstimator</Filter>
+    </ClInclude>
+    <ClInclude Include="CamFileParser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="LSStructureMotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LSVideoFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LSCameraParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_LSRunConfigDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_lsparawidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualHull\BoxCalculator.h">
+      <Filter>VisualHull</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualHull\SimplxWarp.h">
+      <Filter>VisualHull</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualHull\nrsimplx\nr.h">
+      <Filter>VisualHull\nrsimplx</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualHull\nrsimplx\nrtypes_nr.h">
+      <Filter>VisualHull\nrsimplx</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualHull\nrsimplx\nrutil_nr.h">
+      <Filter>VisualHull\nrsimplx</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualHull\VisualHull.h">
+      <Filter>VisualHull</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualHull\Voxel.h">
+      <Filter>VisualHull</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualHull\SoftRasterize.h">
+      <Filter>VisualHull</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualHull\MarchingCube.h">
+      <Filter>VisualHull</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagePartition\LSImgPartition.h">
+      <Filter>ImagePartition</Filter>
+    </ClInclude>
+    <ClInclude Include="LSStereoWorkUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LSDepthEstimator.h">
+      <Filter>DspEstimator</Filter>
+    </ClInclude>
+    <ClInclude Include="LSBeliefPropagation.h">
+      <Filter>BP</Filter>
+    </ClInclude>
+    <ClInclude Include="LSModelIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LSSuperRefineWorkUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PointCloudSampling.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="PossionShExec.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHeap.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectPoint.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ZNCCConfEstimator.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="NCCCommonUse.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="PointSetNormal.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectPointParam.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ExWRegularGridBP.h">
+      <Filter>BP</Filter>
+    </ClInclude>
+    <ClInclude Include="ZCubeImage.h">
+      <Filter>BP</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxFilter.h">
+      <Filter>BP</Filter>
+    </ClInclude>
+    <ClInclude Include="ExWRegularGridBPWorkUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoVisualHull.h">
+      <Filter>AutoVisualHull</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoVoxel.h">
+      <Filter>AutoVisualHull</Filter>
+    </ClInclude>
+    <ClInclude Include="GMM.h">
+      <Filter>AutoVisualHull</Filter>
+    </ClInclude>
+    <ClInclude Include="GCApplication.h">
+      <Filter>AutoVisualHull</Filter>
+    </ClInclude>
+    <ClInclude Include="GrabCut2D.h">
+      <Filter>AutoVisualHull</Filter>
+    </ClInclude>
+    <ClInclude Include="GCGraph.h">
+      <Filter>AutoVisualHull</Filter>
+    </ClInclude>
+    <ClInclude Include="GMM3D.h">
+      <Filter>AutoVisualHull</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MeanShift\MSReadme.txt" />
+  </ItemGroup>
+</Project>

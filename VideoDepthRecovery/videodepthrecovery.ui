@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VideoDepthRecoveryClass</class>
+ <widget class="QMainWindow" name="VideoDepthRecoveryClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>725</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>VideoDepthRecovery</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>725</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSaveAs"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuParameters">
+    <property name="title">
+     <string>Parameters</string>
+    </property>
+    <addaction name="actionDepthParameters"/>
+    <addaction name="actionLS_Parameters"/>
+   </widget>
+   <widget class="QMenu" name="menuLightstage">
+    <property name="title">
+     <string>Lightstage</string>
+    </property>
+    <addaction name="actionLoadProject"/>
+    <addaction name="actionRun_VisualHull"/>
+    <addaction name="actionLSRun_Init"/>
+    <addaction name="actionLSRun_Refine"/>
+    <addaction name="actionLSRun_DE"/>
+    <addaction name="actionLSRun_Mesh"/>
+    <addaction name="actionLSRun_All"/>
+   </widget>
+   <widget class="QMenu" name="menuVideoDepth">
+    <property name="title">
+     <string>VideoDepth</string>
+    </property>
+    <addaction name="actionRun_Initialization"/>
+    <addaction name="actionRun_BundleOptimization"/>
+    <addaction name="actionRun_DepthExpansion"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuParameters"/>
+   <addaction name="menuLightstage"/>
+   <addaction name="menuVideoDepth"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QDockWidget" name="dockWidget_DepthPara">
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents"/>
+  </widget>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSaveAs">
+   <property name="text">
+    <string>SaveAs</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionDepthParameters">
+   <property name="text">
+    <string>DepthParameters</string>
+   </property>
+  </action>
+  <action name="actionRun_Initialization">
+   <property name="text">
+    <string>Run_Initialization</string>
+   </property>
+  </action>
+  <action name="actionRun_BundleOptimization">
+   <property name="text">
+    <string>Run_BundleOptimization</string>
+   </property>
+  </action>
+  <action name="actionRun_DepthExpansion">
+   <property name="text">
+    <string>Run_DepthExpansion</string>
+   </property>
+  </action>
+  <action name="actionLoadProject">
+   <property name="text">
+    <string>LoadProject</string>
+   </property>
+  </action>
+  <action name="actionRun_VisualHull">
+   <property name="text">
+    <string>Run_VisualHull</string>
+   </property>
+  </action>
+  <action name="actionLS_Parameters">
+   <property name="text">
+    <string>LS_Parameters</string>
+   </property>
+  </action>
+  <action name="actionRun_Init">
+   <property name="text">
+    <string>Run_Init</string>
+   </property>
+  </action>
+  <action name="actionLSRun_Init">
+   <property name="text">
+    <string>Run_Init</string>
+   </property>
+  </action>
+  <action name="actionLSRun_Refine">
+   <property name="text">
+    <string>Run_refine</string>
+   </property>
+  </action>
+  <action name="actionLSRun_Mesh">
+   <property name="text">
+    <string>Run_Mesh</string>
+   </property>
+  </action>
+  <action name="actionLSRun_DE">
+   <property name="text">
+    <string>Run_DE</string>
+   </property>
+  </action>
+  <action name="actionLSRun_All">
+   <property name="text">
+    <string>Run_All</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="videodepthrecovery.qrc"/>
+ </resources>
+ <connections/>
+</ui>

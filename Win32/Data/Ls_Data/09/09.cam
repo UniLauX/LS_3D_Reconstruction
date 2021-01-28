@@ -1,0 +1,28 @@
+#camera track project file
+<Image Sequence>
+Sequence:.\0040.png
+start:40
+step:1
+end:40
+</Image Sequence>
+
+<Motion Type>
+FREE_MOVE
+FOCAL_CONSTANT
+PRINCIPAL_KNOWN
+SKEW_KNOWN
+</Motion Type>
+
+<intrinsic parameter>
+890.474000	1.923810	520.849000
+0.0	891.890000	407.563000
+0.0	0.0	1.0
+</intrinsic parameter>
+
+<Camera Track>
+890.474000
+-0.917383	-0.175800	0.357075	-8.810038
+0.163578	0.651345	0.740940	-18.797565
+-0.362836	0.738135	-0.568776	38.178861
+         0          0          0          1
+</Camera Track>

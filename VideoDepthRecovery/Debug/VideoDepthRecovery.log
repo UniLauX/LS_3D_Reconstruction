@@ -1,0 +1,103 @@
+﻿生成启动时间为 2016/1/29 11:06:50。
+     1>项目“F:\Project\VideoDepthRecovery\VideoDepthRecovery\VideoDepthRecovery.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\LightStage.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\LightStage.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing videodepthrecovery.h...
+         Uic'ing videodepthrecovery.ui...
+         Moc'ing depthparawidget.h...
+         Moc'ing LSRunConfigDlg.h...
+         Moc'ing lsparawidget.h...
+         Moc'ing runconfigdlg.h...
+         Rcc'ing videodepthrecovery.qrc...
+     1>RCC : warning : No resources in 'F:\Project\VideoDepthRecovery\VideoDepthRecovery\videodepthrecovery.qrc'.
+         
+         Uic'ing runconfigdlg.ui...
+         Uic'ing depthparawidget.ui...
+         Uic'ing LSRunConfigDlg.ui...
+         Uic'ing lsparawidget.ui...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.5\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.5\include\QtCore /IC:\Qt\4.8.5\include\QtGui /Zi /nologo /W1 /WX- /O2 /Oy- /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D _MBCS /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /openmp- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ActbFileParser.cpp ActsFileParser.cpp ActsParserBase.cpp AutoVisualHull.cpp AutoVoxel.cpp BeliefPropagation.cpp Block.cpp BoxFilter.cpp CameraParameters.cpp CamFileParser.cpp CxImageFunction.cpp DataCost.cpp DataCostUnit.cpp DataCostWorkUnit.cpp depthparawidget.cpp DspEstimatorBase.cpp DspEstimator_Normal.cpp ExWRegularGridBP.cpp ExWRegularGridBPWorkUnit.cpp FileNameParser.cpp fileParser.cpp FrameSelectorBase.cpp FrameSelector_MatchPoints.cpp FrameSelector_Normal.cpp GCApplication.cpp GCGraph.cpp GeneratedFiles\Debug\moc_depthparawidget.cpp GeneratedFiles\Debug\moc_lsparawidget.cpp GeneratedFiles\Debug\moc_LSRunConfigDlg.cpp GeneratedFiles\Debug\moc_runconfigdlg.cpp GeneratedFiles\Debug\moc_videodepthrecovery.cpp GMM.cpp GMM3D.cpp GrabCut2D.cpp ImagePartition\LSImgPartition.cpp ImgPartitionBase.cpp ImgPartiton.cpp LevenMarOptimizer.cpp LSBeliefPropagation.cpp LSCameraParameters.cpp LSDepthEstimator.cpp LSModelIO.cpp lsparawidget.cpp LSStereoWorkUnit.cpp LSStructureMotion.cpp LSSuperRefineWorkUnit.cpp LSVideoFrame.cpp LSRunConfigDlg.cpp main.cpp MainWindowControler.cpp MeanShiftSeg.cpp MeanShift\BgImage.cpp MeanShift\ms.cpp MeanShift\msImageProcessor.cpp MeanShift\msSys.cpp MeanShift\RAList.cpp MeanShift\rlist.cpp MyHeap.cpp NCCCommonUse.cpp PixelCostComputer_Init.cpp PixelCostComputorBase.cpp PixelCostComputor_Refine.cpp PlanFittingWorkUnit.cpp PointCloudSampling.cpp PointSetNormal.cpp PossionShExec.cpp runconfigdlg.cpp SelectPoint.cpp SelectPointParam.cpp VDRStructureMotion.cpp VDRVideoFrame.cpp videodepthrecovery.cpp VisualHull\BoxCalculator.cpp VisualHull\MarchingCube.cpp VisualHull\MarchingCubeStatic.cpp VisualHull\nrsimplx\simp1.cpp VisualHull\nrsimplx\simp2.cpp VisualHull\nrsimplx\simp3.cpp VisualHull\nrsimplx\simplx.cpp VisualHull\SimplxWarp.cpp VisualHull\SoftRasterize.cpp VisualHull\VH_Octree.cpp VisualHull\VisualHull.cpp VisualHull\Voxel.cpp ZCubeImage.cpp ZImage.cpp ZImageUtil.cpp ZNCCConfEstimator.cpp /Zm1000 
+         ActbFileParser.cpp
+         ActsFileParser.cpp
+     1>ActsFileParser.cpp(182): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::MotionType”
+     1>ActsFileParser.cpp(183): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::FocalType”
+     1>ActsFileParser.cpp(184): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::PrincipalType”
+     1>ActsFileParser.cpp(185): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::SkewType”
+     1>ActsFileParser.cpp(205): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::MotionType”
+     1>ActsFileParser.cpp(207): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::MotionType”
+     1>ActsFileParser.cpp(209): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::FocalType”
+     1>ActsFileParser.cpp(211): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::FocalType”
+     1>ActsFileParser.cpp(213): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::FocalType”
+     1>ActsFileParser.cpp(215): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::AspectType”
+     1>ActsFileParser.cpp(217): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::AspectType”
+     1>ActsFileParser.cpp(219): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::AspectType”
+     1>ActsFileParser.cpp(221): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::PrincipalType”
+     1>ActsFileParser.cpp(223): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::PrincipalType”
+     1>ActsFileParser.cpp(225): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::PrincipalType”
+     1>ActsFileParser.cpp(227): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::SkewType”
+     1>ActsFileParser.cpp(229): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::SkewType”
+     1>ActsFileParser.cpp(231): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::SkewType”
+         ActsParserBase.cpp
+         AutoVisualHull.cpp
+     1>f:\project\videodepthrecovery\videodepthrecovery\VisualHull/VisualHull.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         AutoVoxel.cpp
+         BeliefPropagation.cpp
+         Block.cpp
+         BoxFilter.cpp
+         CameraParameters.cpp
+         CamFileParser.cpp
+     1>CamFileParser.cpp(181): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::MotionType”
+     1>CamFileParser.cpp(182): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::FocalType”
+     1>CamFileParser.cpp(183): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::PrincipalType”
+     1>CamFileParser.cpp(184): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::SkewType”
+     1>CamFileParser.cpp(204): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::MotionType”
+     1>CamFileParser.cpp(206): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::MotionType”
+     1>CamFileParser.cpp(208): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::FocalType”
+     1>CamFileParser.cpp(210): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::FocalType”
+     1>CamFileParser.cpp(212): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::FocalType”
+     1>CamFileParser.cpp(214): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::AspectType”
+     1>CamFileParser.cpp(216): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::AspectType”
+     1>CamFileParser.cpp(218): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::AspectType”
+     1>CamFileParser.cpp(220): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::PrincipalType”
+     1>CamFileParser.cpp(222): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::PrincipalType”
+     1>CamFileParser.cpp(224): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::PrincipalType”
+     1>CamFileParser.cpp(226): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::SkewType”
+     1>CamFileParser.cpp(228): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::SkewType”
+     1>CamFileParser.cpp(230): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ActsParserBase::SkewType”
+         CxImageFunction.cpp
+         DataCost.cpp
+         DataCostUnit.cpp
+         DataCostWorkUnit.cpp
+         depthparawidget.cpp
+         DspEstimatorBase.cpp
+         DspEstimator_Normal.cpp
+         ExWRegularGridBP.cpp
+         ExWRegularGridBPWorkUnit.cpp
+         FileNameParser.cpp
+         正在生成代码...
+     1>f:\project\videodepthrecovery\videodepthrecovery\boxfilter.cpp(43): warning C4715: “IMGAlgorithm::borderIndex”: 不是所有的控件路径都返回值
+         正在编译...
+         fileParser.cpp
+         FrameSelectorBase.cpp
+         FrameSelector_MatchPoints.cpp
+         FrameSelector_Normal.cpp
+         GCApplication.cpp
+         GCGraph.cpp
+         moc_depthparawidget.cpp
+         moc_lsparawidget.cpp
+         moc_LSRunConfigDlg.cpp
+     1>f:\project\videodepthrecovery\videodepthrecovery\VisualHull/VisualHull.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_runconfigdlg.cpp
+         moc_videodepthrecovery.cpp
+     1>f:\project\videodepthrecovery\videodepthrecovery\VisualHull/VisualHull.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         GMM.cpp
+         GMM3D.cpp
+         GrabCut2D.cpp
+         LSImgPartition.cpp
+         ImgPartitionBase.cpp
+         ImgPartiton.cpp
+         LevenMarOptimizer.cpp
+         LSBeliefPropagation.cpp

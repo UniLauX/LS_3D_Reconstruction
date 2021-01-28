@@ -1,0 +1,1 @@
+copy the date from "LS_3D_Reconstruction/Win32/Data/Ls_Data"
