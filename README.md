@@ -9,4 +9,4 @@ Supervisor: [Guofeng Zhang](http://www.cad.zju.edu.cn/home/gfzhang/), [Hujun Bao
 
 #### 2. Thesis and Demo
 [Master thesis](https://drive.google.com/file/d/19U7orKvMit1q33nVchfpTD8frHLep2WU/view) <br>
-[Video Demo-in low quality](https://youtu.be/PzfYyTo8qss)
+[Video Demo](https://youtu.be/PzfYyTo8qss) (in low quality)
