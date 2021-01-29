@@ -50,3 +50,7 @@ automatically three-dimensional of human body.
 Visual Studio 2010 </br>
 C++
 
+#### 5. Run the demo
+Please refer to the 
+
+
