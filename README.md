@@ -51,6 +51,6 @@ Visual Studio 2010 </br>
 C++
 
 #### 5. Run the demo
-Please refer to the 
+Please refer to document at "LS_3D_Reconstruction/Document/User Guide for the software.pd"
 
 
