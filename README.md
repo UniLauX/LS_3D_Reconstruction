@@ -57,8 +57,7 @@ Please refer to document at "LS_3D_Reconstruction/Document/User Guide for the so
 ![image](https://github.com/UniLauX/LS_3D_Reconstruction/blob/master/visual_result0.png)
 ![image](https://github.com/UniLauX/LS_3D_Reconstruction/blob/master/visualized_result.png)
 
-#### 7. Lightstage in Zhejiang University and USC ICT Graphics Lab
-
+#### 7. About [Lightstage](https://vgl.ict.usc.edu/LightStages/)
 Lightstage in State Key Lab of CAD&CG
 ![image](https://github.com/UniLauX/LS_3D_Reconstruction/blob/master/Lightstage%20in%20ZJU.jpg)
 
