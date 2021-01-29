@@ -61,5 +61,5 @@ Please refer to document at "LS_3D_Reconstruction/Document/User Guide for the so
 Lightstage in [State Key Lab of CAD&CG](http://www.cad.zju.edu.cn/english.html)
 ![image](https://github.com/UniLauX/LS_3D_Reconstruction/blob/master/Lightstage%20in%20ZJU.jpg)
 
-Lightstage in USC ICT Graphics Lab
+Lightstage in [USC ICT Graphics Lab](https://vgl.ict.usc.edu/)
 ![image](https://github.com/UniLauX/LS_3D_Reconstruction/blob/master/Lightstage6%20in%20USC.jpg)
