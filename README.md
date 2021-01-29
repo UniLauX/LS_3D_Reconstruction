@@ -47,6 +47,6 @@ background, and the high quality foreground cutout results lay the foundation fo
 automatically three-dimensional of human body.
 
 #### Environment
-Visual Studio 2010
+Visual Studio 2010 </br>
 C++
 
