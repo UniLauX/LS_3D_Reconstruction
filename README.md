@@ -45,3 +45,8 @@ segmentation methods, our algorithm could effectively reduce the impact for
 segmentation brought by light and color similarity between foreground and
 background, and the high quality foreground cutout results lay the foundation for
 automatically three-dimensional of human body.
+
+#### Environment
+Visual Studio 2010
+C++
+
