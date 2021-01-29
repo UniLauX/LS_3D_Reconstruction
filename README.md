@@ -54,4 +54,4 @@ C++
 Please refer to document at "LS_3D_Reconstruction/Document/User Guide for the software.pdf"
 
 #### 6. 3D Reconstruction Results
-![image](https://github.com/UniLauX/VideoMatting/blob/master/snapcut.png)
+![image](https://github.com/UniLauX/LS_3D_Reconstruction/blob/master/visualized_result.png)
