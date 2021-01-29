@@ -46,7 +46,7 @@ segmentation brought by light and color similarity between foreground and
 background, and the high quality foreground cutout results lay the foundation for
 automatically three-dimensional of human body.
 
-#### Environment
+#### 4. Environment
 Visual Studio 2010 </br>
 C++
 
