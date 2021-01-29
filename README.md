@@ -55,3 +55,8 @@ Please refer to document at "LS_3D_Reconstruction/Document/User Guide for the so
 
 #### 6. 3D Reconstruction Results
 ![image](https://github.com/UniLauX/LS_3D_Reconstruction/blob/master/visualized_result.png)
+
+#### 7. Lightstage in Zhejiang University and USC ICT Graphics Lab
+
+
+
